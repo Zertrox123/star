@@ -90,4 +90,5 @@ void star_relation(int size)
         my_putstr(" ");
     }
     my_putstr("*");
+    my_putstr("\n");
 }
