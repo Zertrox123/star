@@ -12,9 +12,6 @@ void middle1_bis(int stage, int space)
         my_putstr(" ");
     }
     my_putstr("*");
-    for (int j = space; j != 0; j--) {
-        my_putstr(" ");
-    }
 }
 
 void middle2_bis(int stage, int space)
@@ -24,9 +21,6 @@ void middle2_bis(int stage, int space)
         my_putstr(" ");
     }
     my_putstr("*");
-    for (int j = space; j != 0; j--) {
-        my_putstr(" ");
-    }
 }
 
 void top_bis2(int count, int space)
@@ -39,9 +33,6 @@ void top_bis2(int count, int space)
         my_putstr(" ");
     }
     my_putstr("*");
-    for (int j = count; j != 0; j--) {
-        my_putstr(" ");
-    }
 }
 
 void top_bis(int size)

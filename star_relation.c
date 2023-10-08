@@ -66,9 +66,6 @@ void top(int count, int space, int size)
             my_putstr(" ");
         }
         my_putstr("*");
-        for (int j = count; j != 0; j--) {
-            my_putstr(" ");
-        }
         space = space + 2;
         my_putstr("\n");
         count--;

@@ -29,3 +29,7 @@ void star(unsigned int size)
         star_relation(size);
     }
 }
+
+void main(void) {
+    star(5);
+}
