@@ -5,6 +5,11 @@
 ** star.c
 */
 
+void my_putchar(char const c)
+{
+    write(1, &c, 1);
+}
+
 int my_putstr(char const *str)
 {
     while (*str != '\0') {
@@ -23,4 +28,9 @@ void star(unsigned int size)
     } else {
         star_relation(size);
     }
+}
+
+void main(int argc, char **argv)
+{
+    star(6);
 }
